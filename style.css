@@ -81,40 +81,27 @@ body {
     width: 300px;
 }
 
-.info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-    padding: 50px 100px;
-  }
-
 .info .info-header {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin: 50px;
+    text-align: center;
 }
 
 .info .info-pairs {
     display: flex;
     justify-content: space-between;
-    gap:10px;
-}
-
-.info .info-pair {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 1 1;
-}
-
-.info-pair p {
+    gap: 20px;
+    padding: 0px 100px;
     text-align: center;
 }
 
 .info-pair img {
-    flex: 1 1;
-    width: 200px;
+    flex: auto;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
     border: 5px solid #3882F6;
     border-radius: 20px;
 }
